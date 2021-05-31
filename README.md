@@ -5,7 +5,7 @@
 
 2) inside directory run cmd   < npm i >
 
-3) here is details of api   or alos import postman collaction for this   
+3)  import postman collaction for this   
 https://www.getpostman.com/collections/9970d42e4d767fc070ad
   
   
