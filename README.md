@@ -10,12 +10,19 @@ https://www.getpostman.com/collections/9970d42e4d767fc070ad
   
   
   Make things easier for your teammates with a complete collection description.
+  
 POST
+
 create user
+
 http://localhost:5000/user/createuser
+
+
 Make things easier for your teammates with a complete request description.
 Bodyraw (json)
+
 JSON
+
 {
   "name": "atul",
   "email": "atuls7@gmail.com",
@@ -35,20 +42,33 @@ JSON
 }
 
 
+
 GET
+
 get all user
+
 http://localhost:5000/user/getUser?pageNumber=1
+
 Make things easier for your teammates with a complete request description.
 Request Params
+
 pageNumber
+
 1
+
 GET
+
 get user by id
+
 http://localhost:5000/user/userid/60b44a7006b3c11a03071fcf
+
 Make things easier for your teammates with a complete request description.
+
 PUT
+
 update user
 http://localhost:5000/user/userid/60b44a7006b3c11a03071fcf
+
 Make things easier for your teammates with a complete request description.
 Bodyraw (json)
 JSON
@@ -69,16 +89,5 @@ JSON
   "email": "atulspl201912@gmai.com",
   "mobile": "3422344265 "
 }
-Click to Expand
-JUMP TO
-Introduction
-POST
-create user
-GET
-get all user
-GET
-get user by id
-PUT
-update user
 
 
